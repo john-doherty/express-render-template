@@ -1,0 +1,30 @@
+{
+  "name": "express-render-template",
+  "version": "0.0.1",
+  "description": "Extends res.render allowing an external url to be used as a layout template and a css selector as a placeholder location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified yet!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/john-doherty/express-render-template.git"
+  },
+  "keywords": [
+    "express",
+    "render",
+    "render template string",
+    "external template",
+    "template string"
+  ],
+  "author": "John Doherty <contact@johndoherty.info> (www.johndoherty.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-doherty/express-render-template/issues"
+  },
+  "homepage": "https://github.com/john-doherty/express-render-template#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request-promise": "^3.0.0"
+  }
+}
