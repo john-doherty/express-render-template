@@ -18,8 +18,10 @@ var renderTemplate = require('express-render-template');
 // replace res.render with renderTemplate version
 app.use(renderTemplate);
 
-// using an external url as a layout template
+// create a regular express route
 app.get('/', function(req, res){
+    
+    // call res.render as normal but pass template and selector rather than layout
     res.render('view-name',{
        template: 'http://mammothworkwear.com',
        selector: '#promo-banner'
