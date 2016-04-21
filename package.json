@@ -1,6 +1,6 @@
 {
   "name": "express-render-template",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Extends res.render allowing an external url to be used as a layout template and a css selector as a placeholder location",
   "main": "index.js",
   "scripts": {
