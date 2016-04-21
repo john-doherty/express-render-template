@@ -32,5 +32,9 @@ app.get('/', function(req, res){
 ## View Template
 
 ```html
-    <h1>20% off Dickies Workweaar</h1>
+<h1>20% off <a href="https://northseaworkwear.com/brands-dickies-fr-workwear/">Dickies Workwear</a></h1>
 ```
+
+## Auto Base Tag Injection
+
+To ensure scripts, styles and images in the external template load on your site, the render method injects a HTML base tag ```<base href="http://mammothworkwear.com" />```. Therefore you need to ensure any links within your view are absolute.
