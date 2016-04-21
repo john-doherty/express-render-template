@@ -24,7 +24,7 @@ app.get('/', function(req, res){
     // call res.render as normal but pass template and selector rather than layout
     res.render('view-name',{
        template: 'http://mammothworkwear.com',
-       selector: '#promo-banner'
+       templateSelector: '#promo-banner'
     });
 });
 ```
