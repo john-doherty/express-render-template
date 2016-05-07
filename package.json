@@ -1,7 +1,7 @@
 {
   "name": "express-render-template",
-  "version": "0.0.8",
-  "description": "Extends res.render allowing an external url to be used as a layout template and a css selector as a placeholder location",
+  "version": "0.0.9",
+  "description": "Extends res.render allowing an external URL to be used as a layout & CSS selector as a placeholder location (alternative to an iframe)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified yet!\" && exit 1"
@@ -13,12 +13,10 @@
   "keywords": [
     "express",
     "render",
-    "render template string",
-    "external template",
-    "template string"
+    "iframe"
   ],
   "author": "John Doherty <contact@johndoherty.info> (www.johndoherty.info)",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/john-doherty/express-render-template/issues"
   },
