@@ -1,6 +1,8 @@
 # express-render-template
 
-Extends res.render allowing an external URL to be used as a layout & CSS selector as a placeholder location _(alternative to an iframe)_.
+Use the HTML source of an external URL as an express layout template, a clean alternative to an iframe. 
+
+Extends res.render allowing an external URL to be used as a layout & CSS selector as a placeholder location to inject view content.
 
 ## Installation
 
@@ -29,16 +31,16 @@ app.get('/', function(req, res){
 });
 ```
 
-## View Template
+## View template
 
 ```html
 <h1>20% off <a href="https://northseaworkwear.com/brands-dickies-fr-workwear/">Dickies Workwear</a></h1>
 ```
 
-## Auto Base Tag Injection
+## Auto base tag injection
 
 To ensure scripts, styles and images in the external template load on your site, the render method injects a HTML base tag ```<base href="http://mammothworkwear.com" />```. Therefore you need to ensure any links within your view are absolute.
 
 ## License
 
-[ISC License](LICENSE) &copy; 2016 [John Doherty](http://wwww.johndoherty.info/)
+[ISC License](LICENSE) &copy; 2016 [John Doherty](https://courseof.life/johndoherty)

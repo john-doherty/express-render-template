@@ -1,7 +1,7 @@
 {
   "name": "express-render-template",
-  "version": "0.0.9",
-  "description": "Extends res.render allowing an external URL to be used as a layout & CSS selector as a placeholder location (alternative to an iframe)",
+  "version": "1.0.0",
+  "description": "Use the HTML source of an external URL as an express layout template (clean iframe alternative)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified yet!\" && exit 1"
@@ -13,7 +13,10 @@
   "keywords": [
     "express",
     "render",
-    "iframe"
+    "template",
+    "layout",
+    "iframe",
+    "alternative"
   ],
   "author": "John Doherty <contact@johndoherty.info> (www.johndoherty.info)",
   "license": "ISC",
