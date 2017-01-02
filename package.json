@@ -1,6 +1,6 @@
 {
   "name": "express-render-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the HTML source of an external URL as an express layout template (clean iframe alternative)",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,8 @@
     "cheerio": "^0.20.0",
     "node-cache": "^3.2.1",
     "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
   }
 }

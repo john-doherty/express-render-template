@@ -1,6 +1,8 @@
 # express-render-template
 
-Use the HTML source of an external URL as an express layout template, a clean alternative to an iframe. 
+**This package in no longer supported and has been replaced by [node-iframe-replacement](https://www.npmjs.com/package/node-iframe-replacement)**
+
+Use the HTML source of an external URL as an express layout template, a clean alternative to an iframe.
 
 Extends res.render allowing an external URL to be used as a layout & CSS selector as a placeholder location to inject view content.
 
@@ -43,4 +45,4 @@ To ensure scripts, styles and images in the external template load on your site,
 
 ## License
 
-[ISC License](LICENSE) &copy; 2016 [John Doherty](https://courseof.life/johndoherty)
+[ISC License](LICENSE) &copy; 2016 [John Doherty](https://twitter.com/CambridgeMVP)
